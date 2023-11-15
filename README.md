@@ -8,6 +8,7 @@ Namn: Erling Blomberg, Christopher Jernberg, Olle Thor
 - [Högnivådesign](#högnivådesign)
 - [Hårdvarubeskrivning](#hårdvarubeskrivning)
 - [Beteendebeskrivning](#beteendebeskrivning)
+- [Kommunicationsbeskrivning](#Kommunicationsbeskrivning)
 - [Deluppgifter](#deluppgifter)
 - [Tidsplan](#tidsplan)
 
@@ -29,14 +30,18 @@ Roboten kommer byggas i lego och kompletteras med 3d printade bitar. För att dr
 
 ## Beteendebeskrivning
 
-- Beskrivning av projektet på beteendenivå
 - Roboten ska alltid sträva att köra så att den har linjen under sin mitt.
-- Roboten ska alltid sträva att köra den minsta distansen för att fullborda kartläggningen.
+- Roboten ska alltid sträva att köra den kortaste distansen för att fullborda kartläggningen.
 - Om roboten kommer till en korsning ska den markera de sträckor som den inte har kartlagt.
-- Om tid finns över innan deadline kan två lägen implementeras:
-  - Ett snabbt då roboten inte ska åka längs hela linjen utan dra slutsatser hur kartan ser ut utefter vilka områden som den har markerat men inte utforskat. Robotens beteende ska då ha detta i åtanke så att den åker de sträckor som ger mest information.
-  - Ett med precision i focus då roboten ska utforska hela sträckan.
+  
+Om tid finns över innan deadline kan två lägen implementeras:
+- Ett snabbt då roboten inte ska åka längs hela linjen utan dra slutsatser hur kartan ser ut utefter vilka områden som den har markerat men inte utforskat. Robotens beteende ska då ha detta i åtanke så att den åker de sträckor som ger mest information.
+- Ett med precision i focus då roboten ska utforska hela sträckan.
 
+## Kommunikationsbeskrivning
+
+- Kommunikationen från roboten ska ske i realtid
+  
 ## Deluppgifter
 
 ### Konstruktion och tester :
